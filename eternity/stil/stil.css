@@ -1,0 +1,158 @@
+/* CSS Document written by Urban Baumkirher */
+
+body{
+	margin: 0;	
+	margin-bottom: 230px;
+}
+html {
+	background-color:black;
+	background-image:url(../res/bg.jpg);
+	background-position:center center;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+ 
+	
+}
+
+#glava {
+	width: 100%;
+	height: 100px;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+#wraper {
+	width: 900px;
+	min-height: 500px;
+	border: 2px dashed white;
+	margin: 0 auto;
+	position:relative;
+	overflow:hidden;
+}
+
+#wraper > #leva {
+	width: 30%;
+	height: 100%;
+	background-color: rgba(51,153,255,0.6);
+	float: left;
+	position:relative;
+	overflow:hidden;
+}
+	
+#wraper > #desna {
+	width: 70%;
+	height:100%;
+	background-color: white;
+	float: right;
+	position:relative;
+	overflow:hidden;
+}
+
+#klepet_wraper {
+	width: 100%;
+	height: 220px;
+	position: fixed;
+	bottom: 0;
+}
+
+#klepet {
+	width: 600px;
+	height:100%;
+	margin: 0 auto;
+}
+
+#klepet_vsebina {
+
+	width: 98%;
+	height: 76%;
+	padding: 5px 5px 5px 5px;
+	background-color: rgba(255,255,255,0.5);
+	border: 2px solid black;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	overflow-y: scroll;
+	word-break: break-all;
+}
+
+#klepet_vsebina > p {
+	margin: 0;
+
+}
+#klepet_vsebina > div.bubble {
+	width: auto;
+	height: auto;
+	max-width: 440px;
+	padding: 8px;
+	border-radius: 8px;
+	border: 1px solid black;
+	margin: 2px 0px 2px 0px;
+	clear:both;
+	background-color: rgba(255,255,255, 0.5);
+	float:left;
+}
+#klepet_vsebina > div.mine {
+	background-color: rgba(0,0,255, 0.4);
+	float:right;
+}
+#klepet_input {
+	width: 87%;
+	height: 28px;
+	float: left;
+	clear: none;
+	background-color: rgba(255,255,255,0.6);
+	border-left: 2px black solid;
+	border-right: 2px black solid;
+	border-bottom: 2px black solid;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-left-radius: 8px;
+
+	padding: 4px;
+	padding-left: 6px;
+}
+#klepet_input > input {
+	width: 90%;
+	height: 100%;
+	background-color: rgba(255,255,255,0);
+	border:none;
+	margin: none;
+}
+#klepet_input > input#tColor {
+	float:right;
+	width: 9%;
+	height: 100%;
+	
+}
+#b_poslji {
+	width: 62px;
+	height: 36px;
+	font-family: verdana;
+	background-color: rgba(51,153,255,0.6); 
+	color: white;
+	font-weight: bold;
+	float:left;
+	margin: 0;
+	border:none;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-bottom-right-radius: 8px;
+	transition: all 0.2s linear;
+
+}
+#b_poslji:hover {
+	background-color: rgba(51,153,255,0.9); 
+	cursor: pointer;
+}
+div.chatText {
+	margin:0;
+	padding: 0;
+}
